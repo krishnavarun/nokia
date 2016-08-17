@@ -1,0 +1,123 @@
+       UNIX COMMANDS:
+      ================
+
+1.man		= To know the description for commands.
+2.less/cat/more	= To open up a file.
+3.cd		= To go to the home directory.
+4.cd /		= To go the base directory.
+5.cd ..		= To go back a directory.
+6.ls -lrth	= To list a directory.
+7.pwd(present working directory) = To show the current path of a directory.
+8.id 		= To list a user id.
+9.Gid		= To list a group user id.
+10.grep 	= To choose a particular pattern.
+11.egrep	= To choose multiple patterns.
+12.fgrep 	= To choose  out a statment Fast grep.
+13.grep -v 	= To eliminate a String
+14.grep -w 	= To choose  a exact pattern..
+15.netstat -na 	= To display a port id status.
+16.traceroute	= To check and return the status of a port id with 30 hops/bytes.
+17.ps -ef	= To list out process in a directory.
+18.ps -eLf	= To list out process in a directory.
+19.top		= To list out the process in a server.
+20.prstat -a	= To list the process in a server.
+21.sed		= To find and replace characters in a file eg: {sed 's/kumar/dilip/g'}
+22.tr -s 	= To translate a character in a file eg: {tr -s '<' 'K'}
+23.sort 	= To sort out a file.
+24.uniq -c 	= To find the uniq details.
+25.cut -d	= Used to cut out a character in a file eg: {cut -d ':' -f1,2,3} f1,2,3 substitutes the columns in a file.
+26 cut -c 	= Used to cut a file through the no of characters eg :{cut -c 100-200}
+27.iostat -e 	= Used to find the errors in a server.
+28.pcp -p 	= Used to find the network status.
+29.ping 	= Used to ping a server or a host.s
+30.awk		= pattern language.
+31.echo 	= To print characters or a space.
+32.grep -il		= to find out a pattern in a directory eg : {grep -il 'dilip' *1203*}
+33.print 		= Used to print a pattern eg {print $4}.
+34.wc -l 		= Used to count a file or a pattern.
+35.bc		= used to count no's eg {echo 2+3+5 | bc}
+36.kill		= Used to kill a process.
+37.kill -9 		= To force kill a process.
+38.cron		= To run a command or a script at a particular time.
+39.at		= To run a command at a time.
+40.sighint 1,3,5	= To initiate a signal.
+41.du -sh		= To check the total space.
+42.df -h 		= To check the total free blocks in a server.
+43.passwd		= To change a password.
+44.history -c	= To clear history.
+45.script {filename}	 = To store all the things done in a putty untill exit.
+46.rm 		= To remove a file.
+47.rmdir 		= To remove a directory.
+48.chmod		= To change the mode of a file {read,write,excute}.
+49.head		= To list out first 10 characters of a file.
+50.Tail		= To list out head 10 characters of a file.
+51.CP		= To copy a file.
+52.MV		= To move or cut a file.
+53.Sa		= To summarize a accounting information.
+54.vmstat		= To know the current running processes in a vmware station.
+55.!!		= To run a previous cmd for eg (!4 would run the last 4th entered cmd)
+56.ld		= Link editor.
+57.w		= To know the current user.
+58.cmp		= To compare a file.
+59.xargs		= To print up the previous line.
+60.Pargs		= To know the parent as well as the subprocess running for a particular proccess.
+61.NF		= To print up the nth field i.e{(asd sda dsad) in this 3 patterns awk '(NF -2) will print sda}.
+62.NR		= To print up nth row/line .
+63.script {filename}	= To record in a file whatever done in the putty (eg script dilip, will create a file dilip and start recording whatever done in the putty untill exit.)
+64.diff		= To differentiate two files.
+65.uname		= To know the current user of the system as well as the os version.
+66.cat > filename	= Wiil create a text file .
+67.find                      = find pathname -name "errlg.*" for eg {find /app/logs/spool/ -name "errlg.*" -mtime -10 will print 10 days logs
+						"	"	"     "            -mmin -10 will print 10 mins logs}
+68.routeadm              =To find the router admin.
+69.defaultroute          =To find the default router.
+70.arp                      =address resolution ctrl.
+71.rarp                     =reverse address resolution protocol
+72.Rev                     = To reverse a file name.
+73.spell                    = To make a spell check.
+74.Bdiff                   =To compare large files.
+75.cp -p                   =To move a file using same timestamp.
+76.ls -R                   =list subdirectories.
+77.vi -x filename      =To create a binary file.
+78.init 5                   =TO shutdown a server.
+79.init 6                   = To restart a server.
+
+h21427696 ----dtdc
+
+
+New Features of Informatica 9
+Posted by: informaticareference on: 12/21/2011
+•	In: Informatica 9 Features
+ 
+•	Leave a Comment
+These are the new features in informatica 9.
+•	Informatica 9 supports data integration for the cloud as well as on premise. You can integrate the data in cloud applications, as well as run Informatica 9 on cloud infrastructure.
+•	Informatica analyst is a new tool available in Informatica 9.
+•	There is architectural difference in Informatica 9 compared to previous version.
+•	Browser based tool for business analyst is a new feature.
+•	Data steward is a new feature.
+•	Allows unified administration with a new admin console that enables you to manage power centre and power exchange from the same console.
+•	Powerful new capabilities for data quality.
+•	Single admin console for data quality, power centre, power exchange and data services.
+•	In Informatica 9, Informatica data quality (IDQ) has been further integrated with the Informatica Platform and performance, manageability and reusability have all been significantly enhanced.
+•	The mappings rules are shared between the browser based tool for analysts and the eclipse based development leveraging unified metadata underneath.
+•	The data services capabilities in Informatica 9 , both over sql and web services ,can be used for real time dash boarding.
+•	Informatica data quality provides world wide address validation support with integrated geocoding.
+•	The ability to define rules and view and run profiles is available in both the Informatica developer (Thick client) and Informatica analyst (browser based tool-Thin client).these tools sit on a unified metadata infrastructure. Both tools incorporate security features like authentication and authorization ensuring..
+•	The developer tool is now eclipse based and supports both data integration and data quality for enhanced productivity. It provides browser based tool for analysts to support the types of tasks they engage in, such as profiling data, specifying and validating rules & monitoring data quality.
+•	There will a velocity methodology. Soon it’s going to introduce on I9.
+•	Informatica has the capability to pull data from IMS, DB2 on series and series and from other several other legacy systems (Mainframe) environment like VSAM, Datacom, and IDMS etc.
+•	There are separate tools available for different roles. The Mapping architect for Vision tool is designed for architects and developers to create templates for common data integration patterns saving developer’s tremendous amount of time.
+•	Informatica 9 does not include ESB infrastructure.
+•	Informatica supports open interfaces such as web services and can integrate with other tools that support these as well including BPM tool.
+•	Informatica 9 complements existing BI architectures by providing immediate access to data through data virtualization, which can supplement the data in existing data warehouse and operational data store.
+•	Informatica 9 supports profiling of Mainframe data. Leveraging the Informatica platform’s connectivity to Mainframe sources.
+•	Informatica 9 will continue support feature of running the same workflow simultaneously.
+•	Browser based tool is a fully functional interface for business analysts.
+•	Dashboards are designed for business executives.
+
+
+
+
+
+http://www.docstoc.com/docs/44769850/Informatica-PowerPoint-Template
